@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap');
+body{
+  overflow-x: hidden;
+}
+.App {
+  text-align: center;
+  background-color: rgb(155,166,191);
+  font-family: 'Share Tech Mono', monospace;
+
+}
+.App h1{
+  margin: 0;
+  padding-top: 2%;
+  margin-top: 7%;
+}
+@media(max-width: 420px){
+*{
+  overflow-x: hidden;
+}
+}
+
+

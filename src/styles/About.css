@@ -1,0 +1,60 @@
+
+h4{
+    padding: 2em;
+    font-size: 1.5rem;
+    color: white;
+    text-align: left;
+    border-radius: 5px;
+    margin: 0;
+    
+}
+.object{
+    border: 2px solid white;
+    background: black;
+    padding: 1%;
+}
+
+h4 .insideClass{
+    margin-left: 5%;
+    width: 35em;
+}
+b{
+    color: rgb(155,166,191);
+}
+.ranFunction{
+    padding: 1%;
+    color: white;
+    background:black;
+    border: 2px solid white;
+    
+}
+.symb{
+    animation: displaySymbol 1s infinite;
+}
+@keyframes displaySymbol {
+    0%{
+        color: white;
+    }
+    100%{
+        color: rgb(155,166,191);
+    }
+}
+@media(max-width: 420px){
+    h4{
+        margin-top: 0;
+        font-size: 75%;
+        text-align: left;
+    }
+    h4 .insideClass{
+        width: 25em;
+    }
+    h4 .functionName{
+        text-align: left;
+        
+    }
+}
+@media(max-width: 770px){
+    h4{
+        font-size: 100%;
+    }
+}

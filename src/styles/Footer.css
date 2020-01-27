@@ -1,0 +1,33 @@
+.footer{
+    background:gray;
+    font-size: 1.5rem;
+    text-align: left;
+    padding: .5%;
+    padding-left: 6em;
+    border-radius: 5px;
+    display: flex;
+    margin-top: 1em;
+}
+.image{
+    width: 3%;
+    margin: .25em;
+}
+.footer .email{
+    padding-top: 1em;
+    margin-left: 3em;
+    height: 3em;
+}
+.footer h2{
+    color: white;
+}
+
+@media(max-width: 420px){
+    .footer h2{
+        display: none;
+    }
+    .footer .email{
+        margin-left: .1em;
+        margin-right: 1em;
+        margin-bottom: 1em;
+    }
+}
