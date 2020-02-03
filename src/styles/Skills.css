@@ -36,6 +36,9 @@
     animation: upDown 3.5s infinite; 
     transition: ease-in-out;  
 }
+.imageFour{
+    animation: spin 2s infinite;
+}
 .imageFive{
     animation: upDown 4.5s infinite; 
     transition: ease-in-out;  
@@ -47,6 +50,11 @@
 @keyframes upDown {
     50%{
         transform: rotateZ(10deg);
+    }
+}
+@keyframes spin {
+    100%{
+        transform: rotateZ(360deg)
     }
 }
 @media(max-width: 420px){
