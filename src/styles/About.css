@@ -17,6 +17,7 @@ h4{
 h4 .insideClass{
     margin-left: 5%;
     width: 35em;
+    line-height: 1.5;
 }
 b{
     color: rgb(155,166,191);
@@ -26,6 +27,7 @@ b{
     color: white;
     background:black;
     border: 2px solid white;
+    line-height: 1.5;
     
 }
 .symb{
@@ -40,17 +42,24 @@ b{
     }
 }
 @media(max-width: 420px){
+    .object{
+        width: 22em;
+        line-height: 1.5;
+    }
     h4{
         margin-top: 0;
-        font-size: 75%;
+        font-size: .25rem;
         text-align: left;
     }
     h4 .insideClass{
-        width: 25em;
+        width: 18em;
     }
     h4 .functionName{
         text-align: left;
         
+    }
+    .ranFunction{
+        width: 22em;
     }
 }
 @media(max-width: 770px){

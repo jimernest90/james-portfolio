@@ -24,8 +24,8 @@ a{
 }
 .upArrow{
     position: fixed;
-    width: 2%;
-    left: 0;
+    width: 3em;
+    right: 0;
     bottom: 0;
 }
 u h4{
