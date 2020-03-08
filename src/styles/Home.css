@@ -10,12 +10,14 @@ a{
 }
 .site-links{
     background: rgba(0,0,0,0.25);
-    width: 15em;
-    height: 8em;
+    width: 85em;
+    height: 15em;
+    padding-bottom: 4em;
     border-radius: 5px;
     border: solid white 2px;
-    margin: auto;
     box-shadow: 0px 3px 6px;
+    margin: auto;
+    display: none;
 }
 .site-links .image{
     margin-top: 10%;
@@ -29,8 +31,9 @@ a{
     bottom: 0;
 }
 u h4{
-    margin-top: 5%;
+    /* margin-top: 5%; */
     font-size: 2.5rem;
+    margin: 0;
     
 }
 @media (max-width: 420px){
@@ -47,3 +50,8 @@ u h4{
         font-size: 2rem;
     }
 }
+/* @keyframes slide {
+    100%{
+        transform: translateX(20em);
+    }
+} */
