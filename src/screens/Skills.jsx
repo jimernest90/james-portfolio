@@ -12,7 +12,7 @@ import '../styles/Skills.css'
 const Skills = () =>{
     return(
     <div className='skills'>
-    <img src='https://media.licdn.com/dms/ihttps://media-exp1.licdn.com/dms/image/C4D03AQEClb0HQdIlQg/profile-displayphoto-shrink_200_200/0?e=1589414400&v=beta&t=_N4C6M6STAhBzMCUpkgw8jhOebYCW4rahBTg-jVnBMImage/C4D03AQE-TdcwSkWvtg/profile-displayphoto-shrink_200_200/0?e=1582156800&v=beta&t=Mfd90gJmgFryoO9K5rlx6vuNG7N6B7_HVO1LFw3_Qgw' alt='homePic' className='homePic'/>
+    <img src='https://media-exp1.licdn.com/dms/image/C4D03AQEClb0HQdIlQg/profile-displayphoto-shrink_200_200/0?e=1589414400&v=beta&t=_N4C6M6STAhBzMCUpkgw8jhOebYCW4rahBTg-jVnBMI' alt='homePic' className='homePic'/>
     <div className='images'>
     <img src={cssIcon} alt='cssIcon' className='imageOne'/>
     <img src={htmlIcon} alt='htmlIcon' className='imageTwo'/>
