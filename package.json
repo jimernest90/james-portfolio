@@ -1,6 +1,5 @@
 {
   "name": "james-portfolio",
-  "homepage": "jameswcodes.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
