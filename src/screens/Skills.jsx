@@ -7,12 +7,13 @@ import postgresIcon from '../img/postgresIcon.png'
 import sqlIcon from '../img/sqlIcon.png'
 import railsIcon from '../img/railsIcon.png'
 import rubyIcon from '../img/rubyIcon.png'
+import myPic from '../img/homepic.jpeg'
 import '../styles/Skills.css'
 
 const Skills = () =>{
     return(
     <div className='skills'>
-    <img src='https://media-exp1.licdn.com/dms/image/C4D03AQEClb0HQdIlQg/profile-displayphoto-shrink_200_200/0?e=1589414400&v=beta&t=_N4C6M6STAhBzMCUpkgw8jhOebYCW4rahBTg-jVnBMI' alt='homePic' className='homePic'/>
+    <img src={myPic} alt='homePic' className='homePic'/>
     <div className='images'>
     <img src={cssIcon} alt='cssIcon' className='imageOne'/>
     <img src={htmlIcon} alt='htmlIcon' className='imageTwo'/>
