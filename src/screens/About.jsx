@@ -19,7 +19,7 @@ const About = () =>{
                 </div>
                 &#125; 
                 <div className='functionName'>
-                    const <b>aboutMe</b> = 	&#40;&#41; =&gt; &#123; console.log	&#40; &#96;Hi I'm &#36;&#123; softwareEngineer.name&#125; and I am a &#36;&#123; softwareEngineer.occupation&#125; who &#36;&#123; softwareEngineer.traits&#125; I have experience in &#36;&#123; softwareEngineer.skills&#125;&#96;&#41;
+                    const <b>aboutMe</b> &#61; 	&#40;&#41; =&gt; &#123; console.log	&#40; &#96;Hi I'm &#36;&#123; softwareEngineer.name&#125; and I am a &#36;&#123; softwareEngineer.occupation&#125; who &#36;&#123; softwareEngineer.traits&#125; I have experience in &#36;&#123; softwareEngineer.skills&#125;&#96;&#41;
                     <br/>&#125; 
                 </div>
                 <div className='runFunction'>
