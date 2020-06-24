@@ -4,6 +4,7 @@ import camelot from '../img/camelot-experience.png'
 import ornate from '../img/ornate-optical.png'
 import stars from '../img/trip-to-stars.png'
 import konetink from '../img/konetink.png'
+import mark from '../img/markbdesigns.png'
 import '../styles/Projects.css'
 import githubIcon from '../img/GitHub-Mark-120px-plus.png'
 import computerIcon from '../img/compIcon.png'
@@ -11,6 +12,11 @@ import computerIcon from '../img/compIcon.png'
 const Projects = () => {
     return (
         <div className='projects'>
+            <div className='projectContainer'><a href='http://markbdesigns.com/' target='blank'><img src={mark} alt='ornate' className='ornate' /></a>
+                <div className='projBottom'>
+                    <h3>&#47;&#47;A multi-page site made in React that showcases the client's work. &#47;&#47;</h3> <a href='https://github.com/jimernest90/mark_portfolio' target="_blank"><img src={githubIcon} alt='github' className='projectGit' /></a>
+                    <a href='http://markbdesigns.com/' target='blank'><img src={computerIcon} className='compIcon' /></a></div>
+            </div>
             <div className='projectContainer'><a href='http://konetink.surge.sh/' target='blank'><img src={konetink} alt='ornate' className='ornate' /></a>
                 <div className='projBottom'>
                     <h3>&#47;&#47;A site made in React and Ruby on Rails with Semantic UI that shows the flow of searching for tattoo artists via preferences, and reaching out to them for appointments. &#47;&#47;</h3> <a href='https://github.com/jimernest90/tattoo_frontend' target="_blank"><img src={githubIcon} alt='github' className='projectGit' /></a>
