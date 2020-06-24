@@ -21,8 +21,8 @@ const Home = () => {
         <u><h4>About</h4></u>
         <About/>
         <div className='site-links'>
-        <a href='https://www.linkedin.com/in/james-w-948a1774/' target="_blank"><img src={linkedinIcon} alt='linkedin' className='image'/></a>
-        <a href='https://github.com/jimernest90' target="_blank"><img src={githubIcon} alt='github' className='image'/></a>
+        <a href='https://www.linkedin.com/in/james-w-948a1774/' rel="noopener noreferrer" target="_blank"><img src={linkedinIcon} alt='linkedin' className='image'/></a>
+        <a href='https://github.com/jimernest90' rel="noopener noreferrer" target="_blank"><img src={githubIcon} alt='github' className='image'/></a>
         </div>
         <div id='projects'/>
         <u><h4>Projects</h4></u>
