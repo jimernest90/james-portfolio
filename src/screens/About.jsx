@@ -2,6 +2,7 @@ import React from 'react'
 import '../styles/About.css'
 
 const About = () =>{
+    /* eslint-disable no-template-curly-in-string */
     return(
         <h4>
             <div className='object'>
@@ -19,7 +20,7 @@ const About = () =>{
                 </div>
                 &#125; 
                 <div className='functionName'>
-                    <p>const <b>aboutMe</b> &#61; 	&#40;&#41; &#61;&gt; &#123; console.log	&#40; &#96;Hi I am &#36;&#123; softwareEngineer.name&#125; and I am a &#36;&#123; softwareEngineer.occupation&#125; who &#36;&#123; softwareEngineer.traits&#125; I have experience in &#36;&#123; softwareEngineer.skills&#125;&#96;&#41;
+                    <p>const <b>aboutMe</b> &#61; &#40;&#41; &#61;&gt; &#123; console.log	&#40; &#96;Hi I am &#36;&#123; softwareEngineer.name&#125; and I am a &#36;&#123; softwareEngineer.occupation&#125; who &#36;&#123; softwareEngineer.traits&#125; I have experience in &#36;&#123; softwareEngineer.skills&#125;&#96;&#41;
                     <br/>&#125; </p>
                 </div>
                 <div className='runFunction'>
