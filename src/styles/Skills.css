@@ -8,7 +8,7 @@
 }.skills .images{
     display: flex;
     flex-wrap: wrap;
-    width: 71%;
+    width: 65%;
     height: 10em;
     margin-left: 2em;
     background: rgba(0,0,0,0.25);
