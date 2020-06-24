@@ -1,9 +1,9 @@
 import React from 'react'
 import '../styles/Navbar.css'
-import cssIcon from '../img/css-icon.png'
-import htmlIcon from '../img/html-icon.png'
-import javaScriptIcon from '../img/javascript-icon.png'
-import reactIcon from '../img/react-icon.png'
+// import cssIcon from '../img/css-icon.png'
+// import htmlIcon from '../img/html-icon.png'
+// import javaScriptIcon from '../img/javascript-icon.png'
+// import reactIcon from '../img/react-icon.png'
 
 export default class Navbar extends React.Component {
     
