@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/Navbar.css'
+import mypic from '../img/homepic.jpeg'
 // import cssIcon from '../img/css-icon.png'
 // import htmlIcon from '../img/html-icon.png'
 // import javaScriptIcon from '../img/javascript-icon.png'
@@ -14,7 +15,7 @@ export default class Navbar extends React.Component {
     render(){
     return(
     <div className= 'Navbar'>
-    <img src='https://media.licdn.com/dms/image/C4D03AQE-TdcwSkWvtg/profile-displayphoto-shrink_200_200/0?e=1582156800&v=beta&t=Mfd90gJmgFryoO9K5rlx6vuNG7N6B7_HVO1LFw3_Qgw' alt='profpic' className='profPic'/>
+    <img src={mypic} alt='profpic' className='profPic'/>
     {/* <div className="flip-card">
     <div className="flip-card-inner">
     <div className="flip-card-front">
