@@ -7,7 +7,7 @@
     width: 60em;
     border-radius: 5px;
     margin: 1em;
-    box-shadow: 3px 5px #888888;
+    box-shadow: 0px 3px 15px #888888;
 }
 .projectContainer{
     display: flex;
@@ -26,13 +26,14 @@
     margin: auto;
     border: 2px solid white;
     box-shadow: 3px 5px #888888;
+    background: white;
 
 }
 .projects .projectGit{
     width: 2em;
     border: solid white 2px;
     padding: 1em;
-    background: rgba(0,0,0,0.25);
+    background: white;
     
 
 }
@@ -40,25 +41,12 @@
     width: 2em;
     border: solid white 2px;
     padding: 1em;
-    background: rgba(0,0,0,0.25);
+    background: white;
 }
 .projBottom{
     padding-top: 10em;
     
 }
-/* #projects:hover{
-    animation: 
-    typewriter 8s steps(40, end) infinite,
-    blink-caret .75s step-end infinite;
-}
-  @keyframes typewriter{
-    from{width: 0;}
-    to{width: 100%;}
-  }
-  @keyframes blinkTextCursor{
-    from{border-right-color: rgba(255,255,255,.75);}
-    to{border-right-color: transparent;}
-  } */
 @media(max-width:420px){
     .projectContainer{
         flex-direction: column;
