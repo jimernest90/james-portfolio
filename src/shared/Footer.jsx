@@ -1,7 +1,5 @@
 import React from 'react'
 import '../styles/Footer.css'
-import mailIcon from '../img/mailIcon.png'
-import linkedinIcon from '../img/linkedinIcon.png'
 
 const Footer = () => {
     return (
