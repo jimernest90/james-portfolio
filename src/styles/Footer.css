@@ -8,6 +8,20 @@
     display: flex;
     margin-top: 1em;
 }
+form{
+    width: 15em;
+    margin: auto;
+}
+.footer input{
+    background-color: gray;
+    box-shadow: 0px 5px 10px;
+    border: none;
+}
+.footer textarea{
+    background-color: gray;
+    box-shadow: 0px 5px 10px;
+    border: none;
+}
 .image{
     width: 3%;
     margin: .25em;
@@ -20,7 +34,6 @@
 .footer h2{
     color: white;
 }
-
 @media(max-width: 420px){
     .footer h2{
         display: none;

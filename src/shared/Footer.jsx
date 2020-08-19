@@ -6,9 +6,13 @@ import linkedinIcon from '../img/linkedinIcon.png'
 const Footer = () => {
     return (
         <div className='footer'>
-            <div id='footer' />
-            <h2>Contact me :</h2><a href='mailto:jimernest90@yahoo.com'><img src={mailIcon} alt='mailIcon' className='email'/></a>
-            <a href='https://www.linkedin.com/in/james-w-948a1774/' target="_blank" rel="noopener noreferrer"><img src={linkedinIcon} alt='linkedin' className='email'/></a>
+    <form name="contact" method="POST" data-netlify="true">
+    <p>Contact Me:</p>
+    <p><label> name: <input type="text" name="name" /> </label></p>
+    <p><label> email: <input type="email" name="email" /></label></p>
+    <p><label> message: <textarea name="message"></textarea></label></p>
+    <button type="submit">Send</button> 
+</form>
     </div>
                                 )
                             }
