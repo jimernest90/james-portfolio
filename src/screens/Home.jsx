@@ -27,6 +27,7 @@ const Home = () => {
         <div id='projects'/>
         <u><h4>Projects</h4></u>
         <Projects/>
+        <div id='footer'/>
         {messageFunction}
     </Layout>
     </div>
