@@ -59,11 +59,11 @@ b{
         
     }
     .ranFunction{
-        width: 22em;
+        width: 20em;
+        font-size: 1rem;
+        margin: auto;
     }
-}
-@media(max-width: 770px){
-    h4{
-        font-size: 100%;
+    .object{
+        display: none;
     }
 }

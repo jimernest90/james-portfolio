@@ -29,11 +29,6 @@ form button{
     width: 3%;
     margin: .25em;
 }
-.footer .email{
-    padding-top: 1em;
-    margin-left: 3em;
-    height: 3em;
-}
 .footer h2{
     color: white;
 }
@@ -41,9 +36,15 @@ form button{
     .footer h2{
         display: none;
     }
-    .footer .email{
-        margin-left: .1em;
-        margin-right: 1em;
-        margin-bottom: 1em;
+    .footer input{
+        border: 2px solid black;
+        box-shadow: none;
+    }
+    .footer textarea{
+        border: 2px solid black;
+        box-shadow: none;
+    }
+    form button{
+        margin-left: 4em;
     }
 }

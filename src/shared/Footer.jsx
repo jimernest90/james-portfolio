@@ -16,8 +16,8 @@ class Footer extends React.Component {
   handleSubmit = e => {
     fetch("/", {
       method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "contact", ...this.state })
+      headers: { "Content-Type": "www.jameswcodes.com/x-www-form-urlencoded" },
+      body: encode({ "footer": "contact", ...this.state })
     })
       .then(() => alert("Success!"))
       .catch(error => alert(error));
@@ -30,8 +30,8 @@ class Footer extends React.Component {
   render() {
     const { name, email, message } = this.state;
     return (
-    <div className='footer'>
-      <form onSubmit={this.handleSubmit}>
+    <div className='footer' data-netlify="true">
+      <form name='footer' onSubmit={this.handleSubmit}>
         <p>
           <label>
             Your Name: <input type="text" name="name" value={name} onChange={this.handleChange} />

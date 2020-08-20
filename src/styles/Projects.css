@@ -58,12 +58,11 @@
         margin: 0;
         padding: 0
     }
-}
-@media(max-width: 770px){
     .projects img{
-        width: 100%;
+        width: 22em;
     }
     .projectContainer h3{
-        width: 80%;
+        font-size: 1rem;
+        width: 20em;
     }
 }

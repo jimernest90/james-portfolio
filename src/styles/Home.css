@@ -1,9 +1,4 @@
 
-/* .about{
-    padding: 2%;
-    width: 30em;
-    display: none;
-} */
 a{
     text-decoration: none;
     color: white;
@@ -45,13 +40,3 @@ u h4{
     }
     
 }
-@media (max-width: 770px){
-    u h4{
-        font-size: 2rem;
-    }
-}
-/* @keyframes slide {
-    100%{
-        transform: translateX(20em);
-    }
-} */

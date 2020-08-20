@@ -18,6 +18,7 @@
     margin-left: 20%;
     display: none;
     margin-top: 5%;
+    border-radius: 0px 0px 30px 0px;
 }
 .Navbar ul{
     margin-left: 50em;
@@ -74,7 +75,6 @@
     
   }
   .Navbar li{
-    border: 2px solid white;
     width: 15em;
     
   }
@@ -89,21 +89,7 @@
     display: block;
   }
 }
-@media(max-width: 770px){
-  .Navbar{
-    height: 7%;
-  }
-  .flip-card{
-    display: none;
-  }
-  .profPic{
-    display: block;
-    height: 125%;
-    width: 12%;
-    margin: 1em;
-    border: 2px solid white;
-  }
-}
+
 
 
 
