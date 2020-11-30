@@ -3,7 +3,14 @@ import '../styles/Footer.css'
 
 
 
-const Footer = () =>{
+class Footer extends React.Component {
+  // constructor(props) {
+  //   super(props);
+    
+  // }
+
+
+  render() {
     return (
     <div className='footer' >
       <form name='contact' action='/contact' method='post'>
@@ -29,5 +36,6 @@ const Footer = () =>{
       </div>    
     );
   }
+}
                             
 export default Footer;
