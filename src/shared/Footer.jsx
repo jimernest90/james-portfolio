@@ -14,6 +14,7 @@ class Footer extends React.Component {
     return (
     <div className='footer' >
       <form name='contact' action='/contact' method='post'>
+      <input type='hidden' name='form-name' value='contact'/>
         <p>
           <label>
             Your Name: <input required type='text' name='name' placeholder='Your name'/>
