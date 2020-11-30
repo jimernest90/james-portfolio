@@ -8,10 +8,16 @@ import mark from '../img/markbdesigns.png'
 import '../styles/Projects.css'
 import githubIcon from '../img/GitHub-Mark-120px-plus.png'
 import computerIcon from '../img/compIcon.png'
+import sevgen from '../img/sevgen.png'
 
 const Projects = () => {
     return (
         <div className='projects'>
+            <div className='projectContainer'><a href='http://sevgenmedia7.com/' target='_blank' rel="noopener noreferrer"><img src={sevgen} alt='ornate' className='ornate' /></a>
+                <div className='projBottom'>
+                    <h3>&#47;&#47;A multi-page site made in React that showcases the company's films, and members. &#47;&#47;</h3> <a href='https://github.com/jimernest90/sevengenmedia' target="__blank"><img src={githubIcon} alt='github' className='projectGit' /></a>
+                    <a href='http://sevgenmedia7.com/' target='_blank' rel="noopener noreferrer"><img src={computerIcon} className='compIcon' alt='compIcon' /></a></div>
+            </div>
             <div className='projectContainer'><a href='http://markbdesigns.com/' target='_blank' rel="noopener noreferrer"><img src={mark} alt='ornate' className='ornate' /></a>
                 <div className='projBottom'>
                     <h3>&#47;&#47;A multi-page site made in React that showcases the client's work. &#47;&#47;</h3> <a href='https://github.com/jimernest90/mark_portfolio' target="__blank"><img src={githubIcon} alt='github' className='projectGit' /></a>
