@@ -23,11 +23,6 @@ const Projects = () => {
                     <h3>&#47;&#47;A multi-page site made in React that showcases the client's work. &#47;&#47;</h3> <a href='https://github.com/jimernest90/mark_portfolio' target="__blank"><img src={githubIcon} alt='github' className='projectGit' /></a>
                     <a href='http://markbdesigns.com/' target='_blank' rel="noopener noreferrer"><img src={computerIcon} className='compIcon' alt='compIcon' /></a></div>
             </div>
-            <div className='projectContainer'><a href='http://konetink.surge.sh/' target='_blank' rel="noopener noreferrer"><img src={konetink} alt='ornate' className='ornate' /></a>
-                <div className='projBottom'>
-                    <h3>&#47;&#47;A site made in React and Ruby on Rails with Semantic UI that shows the flow of searching for tattoo artists via preferences, and reaching out to them for appointments. &#47;&#47;</h3> <a href='https://github.com/jimernest90/tattoo_frontend' target="__blank"><img src={githubIcon} alt='github' className='projectGit' /></a>
-                    <a href='http://konetink.surge.sh/' target='_blank' rel="noopener noreferrer"><img src={computerIcon} className='compIcon' alt='compIcon' /></a></div>
-            </div>
             <div className='projectContainer'><a href='http://eatzilla.surge.sh/' target='_blank' rel="noopener noreferrer"><img src={eatzilla} alt='eatzilla' className='eatzilla' /></a>
                 <div className='projBottom'>
                     <h3>&#47;&#47;A ux collaboration designed in React Bootstrap. This site was based on a persona, Alex, who wanted to make food at home with minimal ingredients. &#47;&#47;</h3><a href='https://github.com/frinci/Eatzilla' target="__blank"><img src={githubIcon} alt='github' className='projectGit' /></a>

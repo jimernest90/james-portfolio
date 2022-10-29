@@ -16,22 +16,6 @@ export default class Navbar extends React.Component {
     return(
     <div className= 'Navbar'>
     <img src={mypic} alt='profpic' className='profPic'/>
-    {/* <div className="flip-card">
-    <div className="flip-card-inner">
-    <div className="flip-card-front">
-    <img src='https://media.licdn.com/dms/image/C4D03AQE-TdcwSkWvtg/profile-displayphoto-shrink_200_200/0?e=1582156800&v=beta&t=Mfd90gJmgFryoO9K5rlx6vuNG7N6B7_HVO1LFw3_Qgw' alt='mypic'/>
-    </div>
-    <div className="flip-card-back">
-      <p>Software Engineer</p>
-      <div className='images'>
-      <img src={cssIcon} alt='cssIcon'/>
-      <img src={htmlIcon} alt='htmlIcon'/>
-      <img src={javaScriptIcon} alt='javaScriptIcon'/>
-      <img src={reactIcon} alt='reactIcon'/>
-      </div>
-    </div> */}
-  {/* </div>
-    </div> */}
     <div className='navigation'>
     <h2>James White</h2>
     <ul>

@@ -18,7 +18,6 @@ const Home = () => {
         <a href='#topSite'><img src={upArrow} alt='upArrow' className='upArrow'/></a>
         <Skills/>
         <div id='about'/>
-        <u><h4>About</h4></u>
         <About/>
         <div className='site-links'>
         <a href='https://www.linkedin.com/in/james-w-948a1774/' rel="noopener noreferrer" target="_blank"><img src={linkedinIcon} alt='linkedin' className='image'/></a>
